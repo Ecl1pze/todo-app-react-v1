@@ -1,0 +1,21 @@
+.todo {
+	padding: 22px 20px;
+	font-size: 21px;
+	background: #15101C;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 20px;
+	user-select: none;
+	cursor: pointer;
+	position: relative;
+}
+
+.timestamp {
+	position: absolute;
+	top: 52px;
+	left: 60px;
+	font-size: 11px;
+	color: rgba(255, 255, 255, 0.34);
+}
